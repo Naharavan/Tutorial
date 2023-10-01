@@ -25,7 +25,7 @@ git push -u origin main
 
 // Para as próximas versões //
 git add .
-git comit -m "Mesagem Explicativa"
+git commit -m "Mesagem Explicativa"
 git push
 
 //Ultima linha//
