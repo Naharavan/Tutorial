@@ -1,0 +1,30 @@
+//utilizando ssh//
+…or create a new repository on the command line
+echo "# aulaandroid" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Naharavan/aulaandroid.git
+git push -u origin main
+
+git init //repositório de versionamento (projeto gerenciado pelo git)
+//Após o init posso executar git status para verificar se temos informações para commited//
+
+// Os dois próximos comnados é para salvar uma versão. 
+Ficarão salvo na stage //
+git add .
+git comit -m "Mesagem Explicativa"
+
+git branch -M main
+
+git remote add origin git@github.com:seuusuario/seurepositorio.git
+
+git push -u origin main
+// está salva a primeira versão //
+
+// Para as próximas versões //
+git add .
+git comit -m "Mesagem Explicativa"
+git push
+
